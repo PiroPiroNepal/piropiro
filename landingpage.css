@@ -1,0 +1,29 @@
+/* Ensure the container fills the viewport and positions children absolutely */
+.landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('C:/Users/Asus/Desktop/piropiro/piroimages/background-eleven.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image in the container */
+}
+
+/* Position the button on top of the image */
+.button-shop {
+    position: absolute;
+    top: 50%; /* Center the button vertically */
+    left: 50%; /* Center the button horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true center alignment */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button font size */
+}
+
+/* Optional: Add hover effects */
+.button-shop:hover {
+    background-color: #45a049;
+}
